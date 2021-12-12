@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Project5_HackingWithSwift
+//  Word Scramble
 //
 //  Created by Николай Никитин on 12.12.2021.
 //

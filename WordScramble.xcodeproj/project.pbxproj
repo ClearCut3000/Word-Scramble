@@ -13,10 +13,11 @@
 		365D9A5327661BF20007959C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 365D9A5127661BF20007959C /* Main.storyboard */; };
 		365D9A5527661BFB0007959C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365D9A5427661BFB0007959C /* Assets.xcassets */; };
 		365D9A5827661BFB0007959C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 365D9A5627661BFB0007959C /* LaunchScreen.storyboard */; };
+		365D9A6027661D380007959C /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 365D9A5F27661D380007959C /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		365D9A4827661BF10007959C /* Project5_HackingWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project5_HackingWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		365D9A4827661BF10007959C /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		365D9A4B27661BF10007959C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		365D9A4D27661BF20007959C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		365D9A4F27661BF20007959C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		365D9A5427661BFB0007959C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		365D9A5727661BFB0007959C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		365D9A5927661BFB0007959C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		365D9A5F27661D380007959C /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 		365D9A3F27661BF10007959C = {
 			isa = PBXGroup;
 			children = (
-				365D9A4A27661BF10007959C /* Project5_HackingWithSwift */,
+				365D9A4A27661BF10007959C /* Word Scramble */,
 				365D9A4927661BF10007959C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +50,32 @@
 		365D9A4927661BF10007959C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				365D9A4827661BF10007959C /* Project5_HackingWithSwift.app */,
+				365D9A4827661BF10007959C /* WordScramble.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		365D9A4A27661BF10007959C /* Project5_HackingWithSwift */ = {
+		365D9A4A27661BF10007959C /* Word Scramble */ = {
 			isa = PBXGroup;
 			children = (
 				365D9A4B27661BF10007959C /* AppDelegate.swift */,
 				365D9A4D27661BF20007959C /* SceneDelegate.swift */,
+				365D9A5F27661D380007959C /* start.txt */,
 				365D9A4F27661BF20007959C /* ViewController.swift */,
 				365D9A5127661BF20007959C /* Main.storyboard */,
 				365D9A5427661BFB0007959C /* Assets.xcassets */,
 				365D9A5627661BFB0007959C /* LaunchScreen.storyboard */,
 				365D9A5927661BFB0007959C /* Info.plist */,
 			);
-			path = Project5_HackingWithSwift;
+			path = "Word Scramble";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		365D9A4727661BF10007959C /* Project5_HackingWithSwift */ = {
+		365D9A4727661BF10007959C /* WordScramble */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 365D9A5C27661BFB0007959C /* Build configuration list for PBXNativeTarget "Project5_HackingWithSwift" */;
+			buildConfigurationList = 365D9A5C27661BFB0007959C /* Build configuration list for PBXNativeTarget "WordScramble" */;
 			buildPhases = (
 				365D9A4427661BF10007959C /* Sources */,
 				365D9A4527661BF10007959C /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = Project5_HackingWithSwift;
+			name = WordScramble;
 			productName = Project5_HackingWithSwift;
-			productReference = 365D9A4827661BF10007959C /* Project5_HackingWithSwift.app */;
+			productReference = 365D9A4827661BF10007959C /* WordScramble.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 365D9A4327661BF10007959C /* Build configuration list for PBXProject "Project5_HackingWithSwift" */;
+			buildConfigurationList = 365D9A4327661BF10007959C /* Build configuration list for PBXProject "WordScramble" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				365D9A4727661BF10007959C /* Project5_HackingWithSwift */,
+				365D9A4727661BF10007959C /* WordScramble */,
 			);
 		};
 /* End PBXProject section */
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				365D9A5827661BFB0007959C /* LaunchScreen.storyboard in Resources */,
+				365D9A6027661D380007959C /* start.txt in Resources */,
 				365D9A5527661BFB0007959C /* Assets.xcassets in Resources */,
 				365D9A5327661BF20007959C /* Main.storyboard in Resources */,
 			);
@@ -291,7 +295,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CJ7JF497NG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Project5_HackingWithSwift/Info.plist;
+				INFOPLIST_FILE = "Word Scramble/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Word Scramble";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -302,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Project5-HackingWithSwift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Word-Scramble";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,7 +324,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CJ7JF497NG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Project5_HackingWithSwift/Info.plist;
+				INFOPLIST_FILE = "Word Scramble/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Word Scramble";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Project5-HackingWithSwift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Word-Scramble";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		365D9A4327661BF10007959C /* Build configuration list for PBXProject "Project5_HackingWithSwift" */ = {
+		365D9A4327661BF10007959C /* Build configuration list for PBXProject "WordScramble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				365D9A5A27661BFB0007959C /* Debug */,
@@ -350,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		365D9A5C27661BFB0007959C /* Build configuration list for PBXNativeTarget "Project5_HackingWithSwift" */ = {
+		365D9A5C27661BFB0007959C /* Build configuration list for PBXNativeTarget "WordScramble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				365D9A5D27661BFB0007959C /* Debug */,
