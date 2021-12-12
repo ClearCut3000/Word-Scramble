@@ -14,6 +14,11 @@
 		365D9A5527661BFB0007959C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365D9A5427661BFB0007959C /* Assets.xcassets */; };
 		365D9A5827661BFB0007959C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 365D9A5627661BFB0007959C /* LaunchScreen.storyboard */; };
 		365D9A6027661D380007959C /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 365D9A5F27661D380007959C /* start.txt */; };
+		365D9A6927664FE80007959C /* scr002.png in Resources */ = {isa = PBXBuildFile; fileRef = 365D9A6427664FE70007959C /* scr002.png */; };
+		365D9A6A27664FE80007959C /* scr003.png in Resources */ = {isa = PBXBuildFile; fileRef = 365D9A6527664FE70007959C /* scr003.png */; };
+		365D9A6B27664FE80007959C /* scr001.png in Resources */ = {isa = PBXBuildFile; fileRef = 365D9A6627664FE70007959C /* scr001.png */; };
+		365D9A6C27664FE80007959C /* scr004.png in Resources */ = {isa = PBXBuildFile; fileRef = 365D9A6727664FE70007959C /* scr004.png */; };
+		365D9A6D27664FE80007959C /* scr005.png in Resources */ = {isa = PBXBuildFile; fileRef = 365D9A6827664FE70007959C /* scr005.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		365D9A5727661BFB0007959C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		365D9A5927661BFB0007959C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		365D9A5F27661D380007959C /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		365D9A6427664FE70007959C /* scr002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scr002.png; sourceTree = "<group>"; };
+		365D9A6527664FE70007959C /* scr003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scr003.png; sourceTree = "<group>"; };
+		365D9A6627664FE70007959C /* scr001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scr001.png; sourceTree = "<group>"; };
+		365D9A6727664FE70007959C /* scr004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scr004.png; sourceTree = "<group>"; };
+		365D9A6827664FE70007959C /* scr005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scr005.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +76,21 @@
 				365D9A5427661BFB0007959C /* Assets.xcassets */,
 				365D9A5627661BFB0007959C /* LaunchScreen.storyboard */,
 				365D9A5927661BFB0007959C /* Info.plist */,
+				365D9A6327664FE70007959C /* Screenshots */,
 			);
 			path = "Word Scramble";
+			sourceTree = "<group>";
+		};
+		365D9A6327664FE70007959C /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				365D9A6427664FE70007959C /* scr002.png */,
+				365D9A6527664FE70007959C /* scr003.png */,
+				365D9A6627664FE70007959C /* scr001.png */,
+				365D9A6727664FE70007959C /* scr004.png */,
+				365D9A6827664FE70007959C /* scr005.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,9 +152,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				365D9A5827661BFB0007959C /* LaunchScreen.storyboard in Resources */,
+				365D9A6C27664FE80007959C /* scr004.png in Resources */,
+				365D9A6D27664FE80007959C /* scr005.png in Resources */,
+				365D9A6927664FE80007959C /* scr002.png in Resources */,
 				365D9A6027661D380007959C /* start.txt in Resources */,
 				365D9A5527661BFB0007959C /* Assets.xcassets in Resources */,
+				365D9A6A27664FE80007959C /* scr003.png in Resources */,
 				365D9A5327661BF20007959C /* Main.storyboard in Resources */,
+				365D9A6B27664FE80007959C /* scr001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
